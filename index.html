@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--meta http-equiv="refresh" content="5"-->
+    <meta name="author" content="Buenny Fry">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>The Interviewer</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" -->
+
+    <!-- Custom styles for this template go here -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 id="heading">The Interviewer</h1>
+        <h1 id="welcome"><span id="show-name"></span> is being interviewed.</h1>
+        <!--p class="alerts" id="alert-msg1"></p>
+        <p class="alerts" id="alert-msg2"></p-->
+        <p class="alerts" id="alert-msg"></p><br />
+      </header>
+
+      <section id="info">
+        <div id="name-fields">
+          <input type="text" id="fname" placeholder="What is your first name?" required autofocus />
+          <input type="text" id="lname" placeholder="What is your last name?" required/><br />
+        <select class="jobs" id="jobs">
+          <option value="0">What job are you interviewing for?</option>
+          <option value="1">Web Development</option>
+          <option value="2">Programming</option>
+          <option value="3">Nuculear Power Plant Safety Inspector</option>
+        </select>
+        <button type="button" id="get-name">Submit</button>
+      </section>
+
+      <section id="interview">
+        <img src="https://dl.dropboxusercontent.com/u/56719742/homer-simpson.jpg" alt="interviewer_profile" />
+        <div id="dialogue">
+          <div id="outer-dial">
+            <p id="inner-dial"></p>
+          </div>
+        </div><br />
+
+        <div id="q-and-a">
+          <p id="question"></p><br />
+          <input type="radio" name="answer" value="a"><span id="a"></span><br>
+          <input type="radio" name="answer" value="b"><span id="b"></span><br>
+          <input type="radio" name="answer" value="c"><span id="c"></span><br />
+          <input type="radio" name="answer" value="d"><span id="d"></span>
+        </div><br />
+        <button type="button" id="send-reply">Reply</button>
+      </section>
+    </div><!-- end wrapper -->
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+
+    <!-- jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+		<!-- Bootstrap core JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+
+		<!-- Can place script tags with JavaScript files here -->
+
+  </body>
+</html>
