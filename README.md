@@ -8,5 +8,5 @@ For each question, the applicant must choose an answer; Homer will respond with 
 If the candidate waits too long to answer, Homer will respond with one of his random taunts until an answer is chosen or the applicant exits the interview.
 The candidate may exit the program at any time which will also trigger a response from Homer -- most likely, a sarcastic one.
 
-Once the applicant has completed the interview, s/he will be greeted with a message of what to expect next. Nothing will happen after that so do not expect to get an further responses.
+Once the applicant has completed the interview, s/he will be greeted with a message of what to expect next. Nothing will happen after that so do not expect to get any further responses.
 
